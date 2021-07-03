@@ -1,0 +1,8 @@
+{
+    "bundle": "com.owl.getting-started",
+    "name": "GettingStarted",
+    "entries": {
+        "main": "dist/index.html"
+    },
+    "assets": "dist"
+}

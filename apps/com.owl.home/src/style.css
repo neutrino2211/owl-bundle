@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(235, 230, 230, 0.77);
+    margin:0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    animation: pulse 5s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgba(235, 230, 230, 0.77);
+    }
+
+    50% {
+        background-color: rgba(235, 230, 230, 0.57);
+    }
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background: url(./assets/owl.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

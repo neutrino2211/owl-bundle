@@ -1,0 +1,19 @@
+{
+  "name": "com.owl.home",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "widgetsjs": "0.0.2-nightly.20"
+  },
+  "scripts": {
+    "build": "parcel build src/index.html --public-url=assets"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "typescript": "^3.7.5"
+  }
+}
